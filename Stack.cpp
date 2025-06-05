@@ -33,5 +33,8 @@ class Stack
         cout << "Push Value" << value << endl;
         return value;
     }
+
+    bool isEmpty()
+    {}
 };
 
