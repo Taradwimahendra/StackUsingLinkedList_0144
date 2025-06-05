@@ -38,5 +38,15 @@ class Stack
     {
      return top == NULL;
     }
+
+    void pop()
+    {
+         Node *temp = top;
+        if (isEmpty())
+        {
+            cout << "Stack is empty." << endl;
+            return; 
+        }
+    }
 };
 
