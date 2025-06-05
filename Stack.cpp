@@ -49,6 +49,7 @@ class Stack
         }
         cout << "Popped value: " << temp->data << endl;
         top = temp->next;
+        temp = nullptr;
     }
 };
 
