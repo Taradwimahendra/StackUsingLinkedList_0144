@@ -51,5 +51,14 @@ class Stack
         top = temp->next;
         temp = nullptr;
     }
+
+     void peek()
+        {
+            if (isEmpty())
+            {
+                cout << 'List is empty.' << endl;
+                return; 
+            }
+        }
 };
 
